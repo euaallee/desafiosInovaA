@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contentGeral {
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    background: linear-gradient(180deg, #F9BD93 0%, #80F0FF 100%);
+}
+
+.contentForms {
+    max-width: 750px;
+    height: 550px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    border-radius: 46px;
+    background: #FFF;
+}
+
+.titleCabeca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.titleCabeca h2 {
+    width: 360px;
+    height: 50px;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titleCabeca span {
+    width: 360px;
+    height: 25px;
+    flex-shrink: 0;
+
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.svg {
+    width: 722px;
+    height: 557.758px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preencherForm {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    width: 400px;
+    height: 530px;
+    padding: 10px;
+}
+
+.assunto {
+    padding: 15px;
+}
+
+.assunto select {
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
+
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 15px;
+    background: #F8D3BA;
+}
+
+.infoPessoal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.nomeContato input {
+    max-width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+
+    padding-left: 1rem;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 15px;
+    background: #F8D3BA;
+}
+
+.emailContato input {
+    max-width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+
+    padding-left: 1rem;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 15px;
+    background: #F8D3BA;
+}
+
+.msgContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.msgContato h3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+}
+
+.msgContato textarea{
+    max-width: 500px;
+    height: 110px;
+
+    padding: 1rem 1rem 1rem 1rem;
+    resize: none;
+    font-size: 1.2rem;
+
+    border: none;
+    border-radius: 15px;
+    background: #F8D3BA;
+}
+
+.cb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+
+    width: 250px;
+    height: 50px;
+
+    border-radius: 12px 2px 12px 2px;
+}
